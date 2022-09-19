@@ -1,0 +1,30 @@
+{
+  "name": "fpyajs_matchers",
+  "version": "1.0.0",
+  "description": "[![Build status](https://ci.appveyor.com/api/projects/status/2nlsga7hbc63wprh?svg=true)](https://ci.appveyor.com/project/bas27/fpyajs-matchers)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bas27/fpyajs_matchers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bas27/fpyajs_matchers/issues"
+  },
+  "homepage": "https://github.com/bas27/fpyajs_matchers#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.1",
+    "@babel/preset-env": "^7.19.1",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "core-js": "^3.25.2"
+  }
+}
