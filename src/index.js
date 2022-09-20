@@ -5,7 +5,5 @@
 // ];
 
 export default function sortCharacters(heroes) {
-  return heroes.sort((a, b) => {
-    return b.health - a.health;
-  });
+  return heroes.sort((a, b) => b.health - a.health);
 }
